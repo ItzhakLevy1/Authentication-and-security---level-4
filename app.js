@@ -38,7 +38,7 @@ app.get("/register", function(req, res){
   res.render("register");
 });
 
-////////////////////////// Level  - Salting and hashing passwords with bcrypt //////////////////////////
+////////////////////////// Level 4 - Salting and hashing passwords with bcrypt //////////////////////////
 
 app.post("/register", function(req, res){
 
